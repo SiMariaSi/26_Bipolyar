@@ -1,0 +1,147 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("проект_3.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+         -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    color:beige;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.Logo, .Top_menu{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.Top_menu li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.Top_menu a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:aliceblue;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.Top_menu a:hover {
+    color: #db2c1f;
+}
+
+
+.Logo h1{
+    vertical-align: middle;
+    color:aliceblue;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.Logo a {
+    color:beige;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.question {
+    
+        width: 50%;
+        margin: 5px auto;
+        background: rgb(56, 50, 50);
+        color:  rgb(231, 200, 126);
+        padding: 15px;
+        font-family: Georgia, serif;
+        text-align: left;
+        font-size: 20px;
+        text-transform: none;
+        border-radius: 8px;
+        text-decoration: none;
+        text-align: center;
+    
+    
+}
+
+.answer {
+    width: 50%;
+    margin: 5px auto;
+    background: rgba(51, 50, 50, 0.95);
+    color: beige;
+    padding: 15px;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.answer-variant{
+    width: 80%;
+    margin: 20px auto;
+    background: rgba(99, 98, 98, 0.95);
+    color: beige;
+    padding: 15px;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.answer-variant li{
+    text-decoration: none;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+.answer-variant:hover{
+    color: rgba(116, 56, 33, 0.95) ;
+}
+
+.result{
+
+    width: 50%;
+    margin: 5px auto;
+    background: rgba(51, 50, 50, 0.95);
+    color: beige;
+    padding: 15px;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+
+}
