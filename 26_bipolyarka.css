@@ -72,11 +72,14 @@ header{
         border-radius: 8px;
         text-decoration: none;
         text-align: center;
-       grid-template-columns: 1fr;
+     display:grid;
+    grid-template-columns: 1fr;
     grid-template-rows: minmax(50px,auto);
     
     grid-gap: 20px;
    
+    
+    
     
     
 }
@@ -94,10 +97,14 @@ header{
     border-radius: 8px;
     text-decoration: none;
     text-align: center;
+     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: minmax(50px,auto);
     
     grid-gap: 0px;
+   
+    
+
 
 }
 
@@ -119,6 +126,8 @@ header{
     grid-template-rows: minmax(50px,auto);
     
     grid-gap: 0px;
+   
+    
    
 }
 
@@ -158,14 +167,17 @@ li{
     border-radius: 8px;
     text-decoration: none;
     text-align: center;
-    display:grid;
+     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: minmax(50px,auto);
     
     grid-gap: 20px;
    
+    
+   
 
 }
+
 .cvet{
 font-size: 25px;
 
@@ -238,4 +250,3 @@ li span{
 color: rgba(175, 98, 67, 0.95);
 
 }
-
