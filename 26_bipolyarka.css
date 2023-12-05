@@ -166,3 +166,76 @@ li{
    
 
 }
+.cvet{
+font-size: 25px;
+
+
+}
+
+li {
+    list-style-type: none; 
+    margin-bottom: 1em;
+   }
+
+li span{
+    color: rgb(153, 137, 99);
+}
+
+.tropici{
+    max-width: 2560px;
+    max-height: fit-content;
+    margin: 10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-rows: minmax(250px,auto);
+    
+    grid-gap: 20px;
+   
+    
+    width: 100%;
+    
+}
+
+.palma a{
+   width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    margin: 0;
+}
+
+
+
+
+.palma img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tropici > div{
+    background: rgba(51, 50, 50, 0.95);
+    color: beige;
+    padding: 30px;
+    font-family: Georgia, serif;
+  
+    text-transform: none;
+    border-radius: 8px;
+    
+
+}
+
+.palma a{
+    color:beige;
+    text-decoration: none;
+    vertical-align: middle;
+   
+
+}
+.palma a:hover{
+
+
+color: rgba(175, 98, 67, 0.95);
+
+}
+
