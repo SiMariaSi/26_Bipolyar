@@ -5,7 +5,7 @@ body {
     -webkit-background-size: cover;
         -moz-background-size: cover;
          -o-background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     text-align: center;
     font-family: Verdana, Arial, sans-serif;
@@ -161,7 +161,7 @@ li{
     margin: 5px auto;
     background: rgba(51, 50, 50, 0.95);
     color: beige;
-    padding: 15px;
+    padding: 24px;
     font-family: Georgia, serif;
     text-align: left;
     font-size: 18px;
